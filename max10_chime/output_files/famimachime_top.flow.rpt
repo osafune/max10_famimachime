@@ -1,0 +1,133 @@
+Flow report for famimachime_top
+Mon Oct 20 21:19:21 2014
+Quartus II 64-Bit Version 14.0.2 Build 209 09/17/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Mon Oct 20 21:19:21 2014      ;
+; Quartus II 64-Bit Version          ; 14.0.2 Build 209 09/17/2014 SJ Web Edition ;
+; Revision Name                      ; famimachime_top                            ;
+; Top-level Entity Name              ; famimachime_top                            ;
+; Family                             ; MAX 10 FPGA                                ;
+; Device                             ; 10M08SAE144C8GES                           ;
+; Timing Models                      ; Advance                                    ;
+; Total logic elements               ; 255 / 8,064 ( 3 % )                        ;
+;     Total combinational functions  ; 245 / 8,064 ( 3 % )                        ;
+;     Dedicated logic registers      ; 125 / 8,064 ( 2 % )                        ;
+; Total registers                    ; 125                                        ;
+; Total pins                         ; 9 / 101 ( 9 % )                            ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0 / 387,072 ( 0 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 48 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 1 ( 0 % )                              ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                              ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/20/2014 21:19:00 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; famimachime_top     ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 202818018146334.141380754007556 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing               ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing               ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                      ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                      ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 606 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:06     ; 1.8                     ; 1207 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 504 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 536 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 456 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:11                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; BRUENNHILDE      ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; BRUENNHILDE      ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; BRUENNHILDE      ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; BRUENNHILDE      ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; BRUENNHILDE      ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off famimachime_top -c famimachime_top
+quartus_fit --read_settings_files=off --write_settings_files=off famimachime_top -c famimachime_top
+quartus_asm --read_settings_files=off --write_settings_files=off famimachime_top -c famimachime_top
+quartus_sta famimachime_top -c famimachime_top
+quartus_eda --read_settings_files=off --write_settings_files=off famimachime_top -c famimachime_top
+
+
+
