@@ -20,9 +20,9 @@ MAX10 evalのArduinoポートのみを使用します。
 使い方
 ------
 
-1.output_filesのfamimachime_top.sofをMAX10にダウンロードします。
-2.スタートボタンを押します。
-3.＼ふぁみま／
+1. output_filesのfamimachime_top.sofをMAX10にダウンロードします。
+2. スタートボタンを押します。
+3. ＼ふぁみま／
 
 
 ライセンス
