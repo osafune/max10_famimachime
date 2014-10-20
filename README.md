@@ -3,7 +3,7 @@ MAX10 chime
 
 MAX10 evalボードでおなじみのファミマチャイムを鳴らします。
 
-[![MAX10 chime](http://img.youtube.com/vi/LehOY2wY_UQ&list=UUrPcgwDhvljCu9btHxtcVnQ/0.jpg)](https://www.youtube.com/watch?v=LehOY2wY_UQ&list=UUrPcgwDhvljCu9btHxtcVnQ)
+[![MAX10 chime](https://i.ytimg.com/vi/LehOY2wY_UQ/1.jpg?time=1413810253922)](http://youtu.be/LehOY2wY_UQ)
 
 
 準備
@@ -29,3 +29,6 @@ MAX10 evalのArduinoポートのみを使用します。
 ==========
 
 ご自由に
+
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/LehOY2wY_UQ" frameborder="0" allowfullscreen></iframe>
